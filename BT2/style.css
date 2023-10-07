@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* Tự điều chỉnh kích thước  */
+  box-sizing: border-box;
+}
+#header {
+  margin: auto;
+  width: 80%;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.brand span {
+  font-size: 25px;
+  color: #052247;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.brand i {
+  background-color: #052247;
+  color: #f8c700;
+  padding: 7px;
+  border-radius: 20px;
+}
+#header .brand a {
+  text-decoration: none;
+}
+.menu {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.menu li {
+  display: inline;
+  margin-right: 20px;
+  color: black;
+}
+.menu ul a {
+  text-decoration: none;
+}
+/* Carousel */
+#carousel {
+  background-image: url("./img/2.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 650px;
+  margin: auto;
+}
+/* introduce */
+#introduce {
+  padding: 40px 0;
+  width: 80%;
+  margin: auto;
+}
+.introduce_item {
+  font-size: 20px;
+}
+.introduce_item h3 {
+  font-size: 35px;
+}
+.introduce_item {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.introduce_item button {
+  padding: 15px 30px;
+  background-color: #f8c700;
+  font-weight: bolder;
+  color: #052247;
+  font-size: 17px;
+  border-radius: 5px;
+  border: none;
+}
+.introduce_img img {
+  width: 100%;
+}
+
+.clear_both {
+  clear: both;
+}
+/* statistics */
+#statistics {
+  background-color: #f6f6f6;
+  padding: 5px;
+}
+.statistics_content {
+  margin: auto;
+  width: 80%;
+}
+.statistics_item_big {
+  float: left;
+  width: 25%;
+  padding: 36px;
+}
+h6.statistics_item_small {
+  float: left;
+  width: 75%;
+  margin-top: 12px;
+  font-size: 13px;
+}
+p.statistics_item_small {
+  font-size: xxx-large;
+  font-weight: bold;
+  float: left;
+  width: 25%;
+}
+/* Blog */
+#blog {
+  background-color: white;
+  padding: 75px;
+}
+.bog_item {
+  float: left;
+  width: 20%;
+  background-color: #052247;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  margin: 17px;
+  border-radius: 5px;
+}
+.blog_content {
+  margin: auto;
+  width: 80%;
+}
+.bog_item i {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+/* Post */
+#post {
+  background-color: #f6f6f6;
+  padding: 40px;
+}
+.post_content {
+  margin: auto;
+  width: 80%;
+}
+.post_event {
+  float: left;
+  width: 40%;
+}
+.post_item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+.post_item_content {
+  float: left;
+  width: 60%;
+  padding: 0 10px;
+}
+.post_item_content span {
+  font-weight: bolder;
+  color: #052247;
+}
+.post_item_content .time {
+  color: gray;
+}
+.img_thub {
+  float: left;
+  width: 40%;
+}
+.img_thub img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 -7px;
+}
+.view_all button {
+  padding: 15px 30px;
+  background-color: #f8c700;
+  font-weight: bolder;
+  color: #052247;
+  font-size: 17px;
+  border-radius: 5px;
+  border: none;
+}
+.view_all {
+  margin: 25px 0;
+  text-align: right;
+}
+.post_event h3 {
+  font-size: 28px;
+  margin: 35px 0;
+}
+
+/* calendal */
+.content {
+  width: 30%;
+  margin: auto;
+  padding: 0 20px;
+  float: left;
+}
+.card {
+  width: 105%;
+  text-align: center;
+}
+.card__top {
+  background-color: #f8c700;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+.card__bottom {
+  background-color: #052247;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+}
+.event_item_content {
+  float: left;
+  width: 70%;
+}
+.event_item {
+  background-color: white;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  padding: 20px 10px;
+}
+.event_item_content span {
+  font-weight: bolder;
+  color: #052247;
+}
+.event_item_content .time {
+  color: #052247;
+}
+.post_event .event {
+  font-size: 28px;
+  margin-left: 40px;
+}
+/* contact */
+#contact {
+  background-color: #052247;
+  padding: 40px;
+  color: white;
+}
+.contact_item {
+  float: left;
+  width: calc(100% / 3);
+}
+.contact_item i {
+  float: left;
+  width: 5%;
+  color: #f8c700;
+  font-size: 12px;
+}
+.contact_item h3 {
+  margin: 20px 0;
+}
+.contact_content {
+  margin: auto;
+  width: 80%;
+}
+.footer {
+  padding: 20px 0;
+}
